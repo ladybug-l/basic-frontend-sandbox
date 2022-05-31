@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background: #F9F8F8;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1.2fr 1.5fr 1.5fr 1.2fr;
+}
+
+h1, h2, h3 {
+    font-family: 'Barlow', sans-serif;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    color: #6C757D;
+}
+
+h1 {
+    font-size: 24px;
+    color: #36C6B9;
+    padding-bottom: 22px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #FFF;
+    padding-bottom: 18px;
+}
+
+.comunidade {
+    background: #fff;
+    padding: 60px;
+    border-radius: 60px 60px 0 0;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.comunidade p {
+    padding-bottom: 18px;
+    font-size: 18px;
+}
+
+.trial {
+    font-weight: bold;
+    color: #7C46E0;
+}
+
+.inscricao {
+    background: rgb(46, 196, 182, 80%);
+    padding: 40px 60px;
+    border-radius: 0 0 0 60px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.preco {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.assinatura p {
+    display: inline;
+}
+
+.inscricao p {
+    padding: 15px 0;
+}
+
+.sobre-nos {
+    background: #2EC4B6;
+    padding: 60px;
+    border-radius: 0 0 60px 0;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.sobre-nos p, .inscricao p {
+    color: #fff;
+    padding-bottom: 8px;
+}
+
+.btn-inscricao {
+    background: #8524E7;
+    padding: 18px 60px;
+    text-align: center;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5% 20%;
+}
+
+@media only screen and (max-width: 1260px) {
+    .container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1.2fr 1.2fr 1.5fr 1.5fr 1.2fr;
+    }
+    .comunidade {
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .inscricao {
+        border-radius: 0;
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
+    .sobre-nos {
+        border-radius: 0 0 60px 60px;
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 4;
+    }
+    .btn-inscricao {
+        padding: 3% 12%;
+        font-size: 14px;
+        margin: 3% 20%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1.2fr 1.5fr 1.5fr 1.2fr;
+    }
+    .comunidade {
+        border-radius: 0;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    .inscricao {
+        border-radius: 0;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
+    .sobre-nos {
+        border-radius: 0;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 4;
+    }
+    .btn-inscricao {
+        padding: 3% 12%;
+        font-size: 14px;
+        margin: 3% 20%;
+    }
+}
