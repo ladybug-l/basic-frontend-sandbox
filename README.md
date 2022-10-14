@@ -8,5 +8,7 @@ Arquivo com os designs:
 ### Projetos:
 
 [Projeto Grid de Preços](https://helgoeta.github.io/basic-frontend-sandbox/grid-de-precos/index.html)
-[Projeto Quadro dos Cards](https://helgoeta.github.io/basic-frontend-sandbox/quadro-de-cards/index.html)
 
+[Projeto Quadro dos Cards - Ecobag](https://helgoeta.github.io/basic-frontend-sandbox/quadro-de-cards/index.html)
+
+[Projeto Landing Page - Chat](https://helgoeta.github.io/basic-frontend-sandbox/chat-landing-page/index.html)
