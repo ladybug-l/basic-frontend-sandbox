@@ -12,3 +12,5 @@ Arquivo com os designs:
 [Projeto Quadro dos Cards - Ecobag](https://helgoeta.github.io/basic-frontend-sandbox/quadro-de-cards/index.html)
 
 [Projeto Landing Page - Chat](https://helgoeta.github.io/basic-frontend-sandbox/chat-landing-page/index.html)
+
+[Projeto Tela de cadastro de Email - Floricultura](https://helgoeta.github.io/basic-frontend-sandbox/forms-email-floricultura/index.html)
